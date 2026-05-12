@@ -1,13 +1,13 @@
-import Header from "./components/Header.jsx";
-import About from "./components/About.jsx";
-import ArticleList from "./components/ArticleList.jsx";
+import Header from "./components/Header";
+import About from "./components/About";
+import ArticleList from "./components/ArticleList";
 import articles from "./blog";
 
 function App() {
   return (
     <div>
-      <Header name="My first Blog" />
-      <About aboutText="Welcome to my personal blog where I share my journey." />
+      <Header name="My Blog" />
+      <About aboutText="This is my blog site" />
       <ArticleList articles={articles} />
     </div>
   );
